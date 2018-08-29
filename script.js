@@ -17,21 +17,17 @@ setGradient = () => {
 generateRandom = () => {
 	const red = Math.floor((Math.random() * 255));
 	const green = Math.floor((Math.random() * 255));
-	const blue = Math.floor((Math.random() * 255));
-	//const rgbColor = `${red,green,blue}`;
+	const blue = Math.floor((Math.random() * 255));	
 
-	hexColor = "#" + rgbToHex(red) + rgbToHex(green) + rgbToHex(blue); 
-	//console.log(hexColor);
+	hexColor = "#" + rgbToHex(red) + rgbToHex(green) + rgbToHex(blue);
 }
 
 rColor1 = () => {
-	generateRandom();
-	//console.log(hexColor);
+	generateRandom();	
 	color1.value = hexColor;
 }
 rColor2 = () => {
-	generateRandom();
-	//console.log(hexColor);
+	generateRandom();	
 	color2.value = hexColor;
 }
 
